@@ -1,0 +1,7 @@
+*.json
+.settings
+shortcut/
+reports/
+logs/
+images/vpn/
+bin/

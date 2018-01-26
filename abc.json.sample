@@ -1,0 +1,58 @@
+{
+	"CustomerName": "ABC",
+	"Checker": "kienhung@outlook.com",
+	"ReportFile": "ABC_SID_ddmmyyyy.html",
+	"OS": "Windows10",
+	"SapShortCut": true,
+	"AutoLogin": false,
+	"AutoLogout": true,
+	"AutoVPN": false,
+	"AutoRDP": false,
+	"Delay": 6,
+	"Timeout": 10,
+	"Systems": [{
+			"SID": "PRO",
+			"Client": "400",
+			"Username": "sap*",
+			"Password": "encrypted password",
+			"Desc": "",
+			"Lang": "EN",
+			"Fromday": "25012018",
+			"Today": "26012018",
+			"Tcode": ["DB02","DB12","DB13","DB16","SM12","SM13","SM21","SM37","SM50","SM58","SMQ1","SMQ2","SOST","SP01","ST03","SM35","ST02","ST04","SM28","ST22"]
+		},
+		{
+			"SID": "QAS",
+			"Client": "400",
+			"Username": "sap*",
+			"Password": "encrypted password",
+			"Desc": "",
+			"Lang": "EN",
+			"Fromday": "25012018",
+			"Today": "26012018",
+			"Tcode": ["DB16"]
+		},
+		{
+			"SID": "DEV",
+			"Client": "400",
+			"Username": "sap*",
+			"Password": "encrypted password",
+			"Desc": "",
+			"Lang": "EN",
+			"Fromday": "25012018",
+			"Today": "26012018",
+			"Tcode": ["DB16"]
+		},
+		{
+			"SID": "SOL",
+			"Client": "001",
+			"Username": "sap*",
+			"Password": "encrypted password",
+			"Desc": "",
+			"Lang": "EN",
+			"Fromday": "25012018",
+			"Today": "26012018",
+			"Tcode": ["DB16"]
+		}		
+	]
+}
