@@ -1,7 +1,12 @@
 *.json
 .settings
 shortcut/*
+!shortcut/.gitkeep 
 reports/*
+!reports/.gitkeep 
 logs/*
+!logs/.gitkeep 
 images/vpn/*
+!images/vpn/.gitkeep 
 bin/
+!bin/.gitkeep 
