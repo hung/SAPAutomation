@@ -8,5 +8,5 @@ logs/*
 !logs/.gitkeep 
 images/vpn/*
 !images/vpn/.gitkeep 
-bin/
+bin/*
 !bin/.gitkeep 
