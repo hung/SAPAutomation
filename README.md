@@ -25,7 +25,7 @@ java -jar SAPAutomation.jar /chk JSONFILE KEY SID
 
 For check all system in Json config file
 ```sh
-java -jar SAPAutomation.java /chk MY_JSON_FILE MY_KEY ALL
+java -jar SAPAutomation.java /chk abc.json MY_KEY ALL
 ```
 
 For check specific system in Json config file
