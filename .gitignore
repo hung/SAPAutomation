@@ -9,4 +9,5 @@ logs/*
 images/vpn/*
 !images/vpn/.gitkeep 
 bin/*
-!bin/.gitkeep 
+!bin/.gitkeep
+*.bak

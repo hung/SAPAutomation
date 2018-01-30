@@ -6,8 +6,7 @@
 	"SapShortCut": true,
 	"AutoLogin": false,
 	"AutoLogout": true,
-	"AutoVPN": false,
-	"AutoRDP": false,
+	"OnlyCheck": false,
 	"Delay": 6,
 	"Timeout": 10,
 	"Systems": [{
