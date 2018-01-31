@@ -25,7 +25,7 @@ SAPAutomation.jar requires Java JRE 1.8 and SAPGUI 7.40 (SAP Signature Theme) to
 *java -jar SAPAutomation.jar /enc KEY TEXT*
 
 ```sh
-*java -jar SAPAutomation.jar /enc MY_KEY MY_UNCRYPTED_PASSWORD*
+java -jar SAPAutomation.jar /enc MY_KEY MY_UNCRYPTED_PASSWORD
 ```
 * Run automation check tool
 
@@ -33,12 +33,12 @@ SAPAutomation.jar requires Java JRE 1.8 and SAPGUI 7.40 (SAP Signature Theme) to
 
 For check all system in Json config file
 ```sh
-*java -jar SAPAutomation.java /chk abc.json MY_KEY ALL*
+java -jar SAPAutomation.java /chk abc.json MY_KEY ALL
 ```
 
 For check specific system in Json config file
 ```sh
-*java -jar SAPAutomation.java /chk abc.json MY_KEY PRO,QAS*
+java -jar SAPAutomation.java /chk abc.json MY_KEY PRO,QAS
 ```
 
 ### Config parameter (abc.json)
