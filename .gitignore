@@ -11,3 +11,4 @@ images/vpn/*
 bin/*
 !bin/.gitkeep
 *.bak
+src/mysap/tcode/SM37N.java
